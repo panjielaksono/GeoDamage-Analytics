@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Efek animasi laser scan untuk dashboard kebencanaan */
+@keyframes scan {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(200%);
+    }
+}
+
+.animate-scan {
+    animation: scan 2s linear infinite;
+}
