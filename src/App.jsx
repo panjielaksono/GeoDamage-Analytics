@@ -116,9 +116,7 @@ export default function App() {
       });
     } catch (error) {
       console.error(error);
-      alert(
-        "Gagal melakukan analisis spasial. Pastikan Space Hugging Face lu statusnya sudah RUNNING.",
-      );
+      alert("Gagal melakukan analisis spasial.");
       setStatus("idle");
     }
   };
