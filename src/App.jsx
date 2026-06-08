@@ -7,7 +7,7 @@ import nonDamageImg from "./assets/nonDamage.png";
 import waterImg from "./assets/water.png";
 import rocketIcon from "./assets/iconroket.png";
 
-const HF_SPACE_API = "https://breaad-disaster-analytics-api.hf.space/predict";
+const HF_SPACE_API = "import.meta.env.VITE_HF_SPACE_API";
 const SHOWCASE_CLASSES = [
   {
     name: "Damaged Infrastructure",
