@@ -1,6 +1,4 @@
 @import "tailwindcss";
-
-/* Efek animasi laser scan untuk dashboard kebencanaan */
 @keyframes scan {
     0% {
         transform: translateY(-100%);
