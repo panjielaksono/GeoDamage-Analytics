@@ -106,9 +106,6 @@ export default function Workspace({ onBackToLanding }) {
               <h1 className="text-sm sm:text-lg font-bold tracking-tight text-[#111827] leading-none sm:leading-tight">
                 Workspace Analisis Spasial Kerusakan Bencana
               </h1>
-              <p className="text-[10px] sm:text-xs text-[#6B7280] mt-0.5 sm:mt-0 font-mono">
-                EXECUTION PIPELINE: UNIVERSITAS DIAN NUSWANTORO
-              </p>
             </div>
           </div>
         </div>
